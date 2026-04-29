@@ -25,15 +25,12 @@ def generate_launch_description():
 
         Node(
             package='robot_arm',
-            executable='tf_publisher', 
-        ),
-
-        Node(
-            package='robot_arm',
-            executable='pose_publisher', 
+            executable='tf_publisher', # Upewnij się, że taka nazwa jest w setup.py w entry_points
+            name='robot_tf_publisher',
             output='screen'
         ),
 
+        # 3. RViz2 z Twoją konfiguracją
         Node(
             package='rviz2',
             executable='rviz2',
@@ -41,5 +38,6 @@ def generate_launch_description():
             output='screen',
             arguments=['-d', rviz_config_path],
         )
+        # TODO 2 — add your pose_publisher node here
 
     ])

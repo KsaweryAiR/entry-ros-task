@@ -1,0 +1,3 @@
+[console_scripts]
+pose_publisher = robot_arm.pose_publisher:main
+tf_publisher = robot_arm.tf_publisher:main

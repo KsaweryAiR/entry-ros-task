@@ -1,0 +1,30 @@
+[1.443s] Invoking command in '/home/ksawery/2026_nauka_ros2/zadanie/entry-ros-task/ros2_ws/src/robot_arm': PYTHONPATH=/home/ksawery/2026_nauka_ros2/zadanie/entry-ros-task/ros2_ws/build/robot_arm/prefix_override:/home/ksawery/2026_nauka_ros2/zadanie/entry-ros-task/ros2_ws/install/robot_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_arm build --build-base /home/ksawery/2026_nauka_ros2/zadanie/entry-ros-task/ros2_ws/build/robot_arm/build install --record /home/ksawery/2026_nauka_ros2/zadanie/entry-ros-task/ros2_ws/build/robot_arm/install.log --single-version-externally-managed install_data
+[1.813s] running egg_info
+[1.843s] writing ../../build/robot_arm/robot_arm.egg-info/PKG-INFO
+[1.844s] writing dependency_links to ../../build/robot_arm/robot_arm.egg-info/dependency_links.txt
+[1.844s] writing entry points to ../../build/robot_arm/robot_arm.egg-info/entry_points.txt
+[1.844s] writing requirements to ../../build/robot_arm/robot_arm.egg-info/requires.txt
+[1.844s] writing top-level names to ../../build/robot_arm/robot_arm.egg-info/top_level.txt
+[2.067s] reading manifest file '../../build/robot_arm/robot_arm.egg-info/SOURCES.txt'
+[2.069s] writing manifest file '../../build/robot_arm/robot_arm.egg-info/SOURCES.txt'
+[2.069s] running build
+[2.069s] running build_py
+[2.069s] copying robot_arm/__init__.py -> /home/ksawery/2026_nauka_ros2/zadanie/entry-ros-task/ros2_ws/build/robot_arm/build/lib/robot_arm
+[2.069s] copying robot_arm/tf_publisher.py -> /home/ksawery/2026_nauka_ros2/zadanie/entry-ros-task/ros2_ws/build/robot_arm/build/lib/robot_arm
+[2.070s] copying robot_arm/pose_publisher.py -> /home/ksawery/2026_nauka_ros2/zadanie/entry-ros-task/ros2_ws/build/robot_arm/build/lib/robot_arm
+[2.070s] running install
+[2.077s] running install_lib
+[2.109s] running install_data
+[2.109s] copying resource/robot_arm -> /home/ksawery/2026_nauka_ros2/zadanie/entry-ros-task/ros2_ws/install/robot_arm/share/ament_index/resource_index/packages
+[2.109s] copying package.xml -> /home/ksawery/2026_nauka_ros2/zadanie/entry-ros-task/ros2_ws/install/robot_arm/share/robot_arm
+[2.109s] copying launch/robot.launch.py -> /home/ksawery/2026_nauka_ros2/zadanie/entry-ros-task/ros2_ws/install/robot_arm/share/robot_arm/launch
+[2.110s] copying urdf/robot_arm.urdf -> /home/ksawery/2026_nauka_ros2/zadanie/entry-ros-task/ros2_ws/install/robot_arm/share/robot_arm/urdf
+[2.110s] copying rviz/robot.rviz -> /home/ksawery/2026_nauka_ros2/zadanie/entry-ros-task/ros2_ws/install/robot_arm/share/robot_arm/rviz
+[2.110s] running install_egg_info
+[2.142s] removing '/home/ksawery/2026_nauka_ros2/zadanie/entry-ros-task/ros2_ws/install/robot_arm/lib/python3.10/site-packages/robot_arm-0.1.0-py3.10.egg-info' (and everything under it)
+[2.142s] Copying ../../build/robot_arm/robot_arm.egg-info to /home/ksawery/2026_nauka_ros2/zadanie/entry-ros-task/ros2_ws/install/robot_arm/lib/python3.10/site-packages/robot_arm-0.1.0-py3.10.egg-info
+[2.144s] running install_scripts
+[2.213s] Installing pose_publisher script to /home/ksawery/2026_nauka_ros2/zadanie/entry-ros-task/ros2_ws/install/robot_arm/lib/robot_arm
+[2.213s] Installing tf_publisher script to /home/ksawery/2026_nauka_ros2/zadanie/entry-ros-task/ros2_ws/install/robot_arm/lib/robot_arm
+[2.213s] writing list of installed files to '/home/ksawery/2026_nauka_ros2/zadanie/entry-ros-task/ros2_ws/build/robot_arm/install.log'
+[2.264s] Invoked command in '/home/ksawery/2026_nauka_ros2/zadanie/entry-ros-task/ros2_ws/src/robot_arm' returned '0': PYTHONPATH=/home/ksawery/2026_nauka_ros2/zadanie/entry-ros-task/ros2_ws/build/robot_arm/prefix_override:/home/ksawery/2026_nauka_ros2/zadanie/entry-ros-task/ros2_ws/install/robot_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_arm build --build-base /home/ksawery/2026_nauka_ros2/zadanie/entry-ros-task/ros2_ws/build/robot_arm/build install --record /home/ksawery/2026_nauka_ros2/zadanie/entry-ros-task/ros2_ws/build/robot_arm/install.log --single-version-externally-managed install_data

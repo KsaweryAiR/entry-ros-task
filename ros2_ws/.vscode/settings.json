@@ -1,0 +1,7 @@
+{
+    "python.analysis.extraPaths": [
+        "/home/ksawery/2026_nauka_ros2/zadanie/entry-ros-task/ros2_ws/install/robot_arm/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
