@@ -1,8 +1,0 @@
-Metadata-Version: 2.1
-Name: robot_arm
-Version: 0.1.0
-Summary: Recruiting task package
-Maintainer: Your Company
-Maintainer-email: recruiting@yourcompany.com
-License: MIT
-Requires-Dist: setuptools
