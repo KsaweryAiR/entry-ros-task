@@ -23,7 +23,7 @@ This component leverages the built-in power of ROS2 to track the robot's state a
 * **lookup_transform Method**: This method is responsible for calculating the real-time position of the robot's end-effector.
 * **Visualization (Marker)**: A Marker is rendered in the workspace as it was included in the Rviz configuration during startup, providing a visual reference for the robot's target or current pose.
 
-### veryfi.py
+### verify_robot.py
 A standalone script, independent of the ROS2 environment, is responsible for monitoring and validating the simulation’s performance. The script retrieves the /end_effector_pose and maintains a record of the previous state. By calculating the Euclidean distance and applying a sensitivity threshold, it accurately distinguishes intentional robotic arm movement from minor numerical simulation noise.
 
 ## Technical Notes & Lessons Learned
